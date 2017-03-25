@@ -1,1 +1,1 @@
-d87c448044defb778f33158d8ccf94a20531d600
+The tool makes a shortcut to hashcat
