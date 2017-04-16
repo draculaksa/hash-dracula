@@ -20,7 +20,7 @@ hashh = raw_input("hash                 :")
 
 types = raw_input("types                :")
 
-wordlist = raw_input('wordlist (y or n)    :')
+wordlist = raw_input("wordlist (y or n)    :")
 
 
 
@@ -38,7 +38,7 @@ def hash_kill() :
         if types == 'sha1' :
             os.system('hashcat -m 100 -a 3 hash.txt ?a?a?a?a?a?a?a?a?a -i')
     elif wordlist == 'y':
-        wordlist1 = raw_input('wordlist             :')
+        wordlist1 = raw_input("wordlist file        :")
         if types == 'md5':
             os.system('hashcat -m 0 -a 0 hash.txt {}  '.format(wordlist1))
 
